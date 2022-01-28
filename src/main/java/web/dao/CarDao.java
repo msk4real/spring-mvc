@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface CarDao {
     List<Car> getCarListByCount(List<Car> carList, int count);
+    List<Car> setCarList();
 }
